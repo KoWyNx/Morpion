@@ -4,6 +4,7 @@
     width: 50%;
     margin: auto;
     margin-top: 100px;
+    ali
 }
 
 .case{
@@ -44,3 +45,11 @@
         width: 70%;
     }
   }
+
+div{
+    font-family: 'Permanent Marker', cursive;
+    display: flex;
+    font-size: 60px;
+    justify-content: center;
+    align-items: center;
+}
