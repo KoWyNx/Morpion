@@ -4,7 +4,6 @@
     width: 50%;
     margin: auto;
     margin-top: 100px;
-    ali
 }
 
 .case{
@@ -52,4 +51,30 @@ div{
     font-size: 60px;
     justify-content: center;
     align-items: center;
+}
+
+#joueur{
+    font-size: 25px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.flex1{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.button{
+    color: red;
+    background-color: rgb(10, 161, 255);
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#title{
+    text-align: center;
+    color:;
 }
