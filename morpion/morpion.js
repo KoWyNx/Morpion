@@ -7,21 +7,25 @@ for(let dataaa of dataa){
     dataaa.addEventListener('click', check)
 }
 
-var x = "x"
-var o = 'o'
 
-var joueur1 = 'joueur1';
-var joueur2 = 'joueur2'; 
+var click = 0
 
 function check(){
+
  console.log(this.dataset.class)
- if (joueur1 == ''){
 
- }else if (this == ''){
+click++
 
+ if (click % 2 == 0 ){
+    this.textContent = 'O'
+
+ }else {
+    this.textContent = 'X'
  }
 
  }
+
+ 
  
 
 
