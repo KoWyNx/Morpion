@@ -3,6 +3,7 @@
     flex-direction: column;
     width: 50%;
     margin: auto;
+    margin-top: 100px;
 }
 
 .case{
@@ -32,3 +33,14 @@
 .bottom{
     border-bottom: none;
 }
+
+@media (max-width: 1000px) {
+    .case {
+      height: 200px;
+      
+    }
+    .flex{
+        margin-top: 100px;
+        width: 70%;
+    }
+  }
