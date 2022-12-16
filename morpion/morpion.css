@@ -48,7 +48,7 @@
 div{
     font-family: 'Permanent Marker', cursive;
     display: flex;
-    font-size: 60px;
+    font-size: 100px;
     justify-content: center;
     align-items: center;
 }
@@ -76,5 +76,5 @@ div{
 
 #title{
     text-align: center;
-    color:;
+    color: red;
 }
